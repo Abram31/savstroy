@@ -1,5 +1,4 @@
 import React from 'react'
-import { typesWorks } from '../../../../../../constants/constants'
 import module from './TypeWork.module.scss'
 import Button from 'react-bootstrap/Button';
 

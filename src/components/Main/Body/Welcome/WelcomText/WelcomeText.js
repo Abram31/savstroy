@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import { typesWorks } from '../../../../../constants/constants'
 import { TypeWork } from './TypeWork/TypeWork'
-import module from './WelcomText.module.scss'
+import module from './WelcomeText.module.scss'
 
-export const WelcomText = () => {
+export const WelcomeText = () => {
     const container = useRef(null)
     const onLoad = (e) => {
         const element = e.target;

@@ -1,0 +1,25 @@
+@import '../../../../../constants/constants.scss';
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+    width: 26rem;
+}
+
+
+.container {
+width: 75%;
+}
+
+.container_icon {
+    background-image: url('../../../../../../public/svg/carAbout/calendar.svg');
+    width: 25%;
+    // height: 5rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title {}
+
+.button {}

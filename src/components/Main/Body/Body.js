@@ -1,11 +1,16 @@
 import React from 'react'
 import module from './Body.module.scss'
-import { Welcom } from './Welcom/Welcom'
+import { CareAboutClient } from './CareAboutClient/CareAboutClient'
+import { Services } from './Services/Services'
+import { Welcome } from './Welcome/Welcome'
+
 
 export const Body = () => {
     return (
         <main className={module.main}>
-            <Welcom />
+            <Welcome />
+            <Services />
+            <CareAboutClient />
         </main>
     )
 }

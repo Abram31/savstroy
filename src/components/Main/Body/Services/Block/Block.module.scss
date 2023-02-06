@@ -1,0 +1,29 @@
+@import '../../../../../constants/constants.scss';
+
+.wrapper {
+    width: 400px;
+    height: 300px;
+    background-image: url(../../../../../../public/img/typesWorks/warming.jpg);
+    padding: 2rem 0 0 0;
+}
+
+.container {
+    background-color: $colorTransparent;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+}
+.title {
+    margin: .3rem 0;
+}
+
+.button {
+    padding: 1rem 2rem;
+    background: $colorButton;
+    border: none;
+    max-width: 13rem;
+    text-decoration: none;
+    color: #000000;
+}
