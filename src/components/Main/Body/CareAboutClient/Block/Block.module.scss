@@ -3,23 +3,26 @@
 .wrapper {
     display: flex;
     gap: 2rem;
-    width: 26rem;
+    width: 36rem;
+    border: 1px solid #beb9b9;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 
 .container {
-width: 75%;
+    width: 75%;
 }
 
 .container_icon {
-    background-image: url('../../../../../../public/svg/carAbout/calendar.svg');
-    width: 25%;
-    // height: 5rem;
+    width: 18%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.title {}
+.title {
+    margin: 0 0 .5rem 0;
+}
 
 .button {}
