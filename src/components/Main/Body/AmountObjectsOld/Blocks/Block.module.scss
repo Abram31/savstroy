@@ -1,0 +1,22 @@
+@import '../../../../../constants/constants.scss';
+
+.wrapper {
+    // height: 140px;
+    // background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 12rem;
+}
+
+.number {
+    font-size: 40px;
+    background: $colorButton;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text {
+    color: $colorHeader;
+}
+
+.container {}

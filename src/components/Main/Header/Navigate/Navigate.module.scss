@@ -21,8 +21,10 @@
     color: $colorHeader;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-size: $fontSizeHeader;
     font-weight: 600;
-    
 
+    &:hover {
+        color: $colorHover
+    }
 }

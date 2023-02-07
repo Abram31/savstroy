@@ -1,8 +1,9 @@
+@import '../../../../../constants/constants.scss';
 .title {
-    font-size: 3rem;
+    font-size: $fontSizeTitle;
     text-align: center;
-    max-width: 50rem;
-    margin: 6rem auto;
+    max-width: 34rem;
+    margin: $titleMargin;
 }
 
 .lite_text {

@@ -11,23 +11,24 @@
 
 .container {
     background-color: rgb(182 172 172 / 50%);
-    font-size: 20px;
+    font-size: $fontSizeServices;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap:0.5rem;
-    height: 90%;
+    height: 70%;
     padding: 1rem 1rem 0;
 }
 .title {
     margin: 0;
+    font-size: $fontSizeServices;
 }
 
 .button {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     background: $colorButton;
     border: none;
-    max-width: 12rem;
+    max-width: 10rem;
     text-decoration: none;
     color: #000000;
     border-radius: 5px;

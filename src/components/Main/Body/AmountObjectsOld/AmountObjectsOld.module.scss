@@ -1,0 +1,18 @@
+@import '../../../../constants/constants.scss';
+.wrapper {
+    height: 140px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    margin: 0 auto;
+    width: $widthContainer;
+    padding: $paddingLeftRight;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.container {}
