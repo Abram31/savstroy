@@ -1,0 +1,20 @@
+.container {
+    max-width: 500px;
+}
+
+.text {
+    display: flex;
+    width: 400px;
+    gap: 1rem;
+
+    &::before {
+        content: '';
+        background-image: url(../../../../../../public/svg/bird.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-width: 1.5rem;
+        height: 1.5rem;
+
+    }
+}

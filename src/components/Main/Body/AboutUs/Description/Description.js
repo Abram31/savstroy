@@ -1,0 +1,17 @@
+import React from 'react'
+import { aboutUsData } from '../../../../../constants/constants'
+import { Block } from '../Block/Block'
+import module from './Description.module.scss'
+
+
+
+export const Description = () => {
+    return (
+        <div className={module.container}>
+            <img className={module.img} src='/img/img_about_us.jpg' alt='' />
+            <div className={module.wrapper_description}>
+                {aboutUsData.map((data, index) => <Block key={index} value={data.value} />)}
+            </div>
+        </div>
+    )
+}
