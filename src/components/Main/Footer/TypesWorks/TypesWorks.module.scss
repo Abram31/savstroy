@@ -6,6 +6,12 @@
     gap: 1rem;
     margin: .5rem 1rem .5rem 0;
     color: $colorHeader;
+
+    @media (max-width:$widthScreenBurger) {
+        display: none;
+        font-size: .5rem;
+    }
+
 }
 
 
@@ -30,6 +36,6 @@
     }
 
     @media (max-width:$widthScreenBurger) {
-        font-size: .4rem;
+        font-size: .5rem;
     }
 }

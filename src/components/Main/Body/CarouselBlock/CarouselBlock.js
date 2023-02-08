@@ -23,7 +23,7 @@ export function CarouselBlock() {
                             <Carousel.Item key={index + data}>
                                 <img
                                     className={`d-block ${module.img}`}
-                                    src={`/img/objects/Melega_4/${index + 1}.jpg`}
+                                    src={`${process.env.PUBLIC_URL}/img/objects/Melega_4/${index + 1}.jpg`}
                                     alt="First slide"
                                 />
                                 {/* <Carousel.Caption>

@@ -49,7 +49,7 @@ export const OurCustomers = () => {
                         return <div key={index} className={module.wrapper_icon}>
                             <img className={module.img}
                                 alt=""
-                                src={`/img/customers/${data}`}
+                                src={`${process.env.PUBLIC_URL}/img/customers/${data}`}
                                 style={{ maxWidth: '10rem' }}
                             />
                         </div>
