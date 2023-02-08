@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/savstroy/static/css/main.9019ea8c.css",
-    "main.js": "/savstroy/static/js/main.8eaf9727.js",
+    "main.css": "/savstroy/static/css/main.d3c38216.css",
+    "main.js": "/savstroy/static/js/main.ae648158.js",
     "static/media/Welcom_background.png": "/savstroy/static/media/Welcom_background.9059bd296930f5137c99.png",
     "static/media/Literature-Decor.ttf": "/savstroy/static/media/Literature-Decor.3e683835fed624c02b43.ttf",
     "static/media/phone.svg": "/savstroy/static/media/phone.b2c27b39e548d52ef6f4.svg",
@@ -10,11 +10,11 @@
     "index.html": "/savstroy/index.html",
     "static/media/bird.svg": "/savstroy/static/media/bird.718d64b469e7e646a444.svg",
     "static/media/burger.svg": "/savstroy/static/media/burger.1f74c329d8de1bca9fa8.svg",
-    "main.9019ea8c.css.map": "/savstroy/static/css/main.9019ea8c.css.map",
-    "main.8eaf9727.js.map": "/savstroy/static/js/main.8eaf9727.js.map"
+    "main.d3c38216.css.map": "/savstroy/static/css/main.d3c38216.css.map",
+    "main.ae648158.js.map": "/savstroy/static/js/main.ae648158.js.map"
   },
   "entrypoints": [
-    "static/css/main.9019ea8c.css",
-    "static/js/main.8eaf9727.js"
+    "static/css/main.d3c38216.css",
+    "static/js/main.ae648158.js"
   ]
 }
