@@ -18,7 +18,7 @@ export function CarouselBlock() {
             <div className={module.container}>
                 <Title />
                 <Carousel activeIndex={index} onSelect={handleSelect} interval={1500}>
-                    {Array(11).fill(1).map((data, index) => {
+                    {Array(10).fill(1).map((data, index) => {
                         return (
                             <Carousel.Item key={index + data}>
                                 <img

@@ -1,6 +1,8 @@
 $colorHeader: whitesmoke;
 $paddingLeftRight: 1rem;
+
 $widthContainer: 1280px;
+$widthScreenBurger:  650px;
 
 $colorTransparent: rgba(0, 0, 0, 0.5);
 $colorButton: linear-gradient(rgba(255, 220, 131, 1), rgba(251, 210, 106, 1), rgba(193, 112, 36, 1));
@@ -9,11 +11,21 @@ $colorHover: rgba(255, 220, 131, 1);
 
 $fontSizeHeader: 1rem;
 $fontSizeWelcomeTitle: 37px;
+$fontSizeWelcomeTitleBurger: 25px;
+
 $fontSizeWelcomeText: .8rem;
+$fontSizeWelcomeTextBurger:.5rem;
+
 $fontSizeTitle: 2rem;
-$fontSizeServices: 1rem;
+$fontSizeTitleBurger: 1.5rem;
+
+$fontSizeServices: 1.2rem;
+$fontSizeServicesBurger:.9rem;
+
 $fontSizeCareAbout: 1rem;
+$fontSizeFooterText:.6rem;
 
 $borderBlock: 1px solid #beb9b9;
 
 $titleMargin: 3rem auto;
+

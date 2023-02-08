@@ -2,18 +2,41 @@
 
 .wrapper_navigate {
     position: absolute;
-    margin: .5rem 0;
+    margin: 0;
     padding: .5rem 0rem;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     left: 0;
+
+    @media (max-width: $widthScreenBurger) {
+        right: 0;
+        left: auto;
+        height: 100%;
+        background-color: #000000;
+        z-index: 1;
+        top: 0;
+        padding: 5rem 0 0 1rem;
+        width: 360px;
+        transform: translateX(100%);
+        transition: 1s;
+
+    }
 }
 
+.active {
+    transform: translateX(0);
+}
 .navigate {
     margin: 0 auto;
     max-width: $widthContainer;
     display: flex;
     justify-content: space-evenly;
+
+    @media (max-width: 650px) {
+        flex-direction: column;
+        width: 360px;
+        margin: 0;
+    }
 }
 
 .link {

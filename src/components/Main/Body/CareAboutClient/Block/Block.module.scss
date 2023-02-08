@@ -7,6 +7,13 @@
     border: 1px solid #beb9b9;
     padding: 1.5rem;
     border-radius: 1rem;
+
+    @media (max-width:$widthScreenBurger) {
+        width: 10rem;
+        font-size: .6rem;
+        padding: 0.4rem;
+        gap: 1rem;
+    }
 }
 
 
@@ -19,11 +26,19 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    @media (max-width:$widthScreenBurger) {
+            width: 15%;
+           
+        }
 }
 
 .title {
     margin: 0 0 .5rem 0;
     font-size: $fontSizeCareAbout;
+
+    @media (max-width:$widthScreenBurger) {
+        font-size: .6rem;
+    }
 }
 
 .button {}

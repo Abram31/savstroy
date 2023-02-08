@@ -35,7 +35,7 @@ export const OurCustomers = () => {
                 ]}
                     // dots={true}
                     showSides={true}
-                    sidesOpacity={0.5}
+                    // sidesOpacity={0.5}
                     sideSize={0}
                     slidesToScroll={1}
                     slidesToShow={3}

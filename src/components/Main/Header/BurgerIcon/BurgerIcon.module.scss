@@ -1,0 +1,23 @@
+@import '../../../../constants/constants.scss';
+
+.wrapper {
+    background-image: url(../../../../../public/svg/burger.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    display: none;
+    transition: 1s;
+    z-index: 2;
+
+    @media (max-width:$widthScreenBurger) {
+        display: block;
+    }
+
+}
+
+.active {
+    transform: rotate(90deg);
+}

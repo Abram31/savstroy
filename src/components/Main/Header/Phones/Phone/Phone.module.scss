@@ -1,5 +1,10 @@
 @import '../../../../../constants/constants.scss';
 
 .phone {
-    color: $colorHeader
+    color: $colorHeader;
+
+    @media (max-width: 427px) {
+        font-size: 12px;
+
+    }
 }

@@ -9,6 +9,11 @@
     font-weight: bold;
     transition: 1s;
 
+    @media (max-width:$widthScreenBurger) {
+        width: 100px;
+        height: 40px;
+        font-size: $fontSizeWelcomeTextBurger;
+    }
 
     &:hover {
         background: $colorButton;

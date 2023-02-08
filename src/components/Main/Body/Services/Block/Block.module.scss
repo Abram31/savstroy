@@ -7,6 +7,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 0 0 0;
+
+    @media (max-width:$widthScreenBurger) {
+        padding: 0;
+        width: 170px;
+        height: 110px;
+    }
 }
 
 .container {
@@ -15,13 +21,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:0.5rem;
+    gap: 0.5rem;
     height: 70%;
     padding: 1rem 1rem 0;
 }
+
 .title {
     margin: 0;
     font-size: $fontSizeServices;
+
+    @media (max-width:$widthScreenBurger) {
+        font-size: $fontSizeServicesBurger;
+    }
 }
 
 .button {
@@ -32,4 +43,11 @@
     text-decoration: none;
     color: #000000;
     border-radius: 5px;
+
+    @media (max-width:$widthScreenBurger) {
+        font-size: .8rem;
+        max-width: 7rem;
+        padding: 0.5rem;
+
+    }
 }

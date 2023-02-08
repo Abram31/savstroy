@@ -16,7 +16,7 @@
     align-items: center;
     gap: 2rem;
 
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     transition: 1s;
     transform: translate(-100vw);
 
@@ -34,6 +34,10 @@
     font-weight: bold;
     color: $colorHeader;
     margin: 0;
+
+    @media (max-width: $widthScreenBurger) {
+        font-size: $fontSizeWelcomeTitleBurger;
+    }
 }
 
 .highlight {
@@ -46,5 +50,6 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
 }

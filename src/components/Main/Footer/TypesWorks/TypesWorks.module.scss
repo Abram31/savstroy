@@ -1,0 +1,35 @@
+@import '../../../../constants/constants.scss';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: .5rem 1rem .5rem 0;
+    color: $colorHeader;
+}
+
+
+.title {
+    margin: 0;
+
+    @media (max-width:$widthScreenBurger) {
+        font-size: .8rem;
+    }
+}
+
+.types_works {
+    display: flex;
+    flex-direction: column;
+    font-size: $fontSizeFooterText;
+    text-decoration: none;
+    color: $colorHeader;
+    cursor: pointer;
+
+    &:hover {
+        color: $colorHover
+    }
+
+    @media (max-width:$widthScreenBurger) {
+        font-size: .4rem;
+    }
+}

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { createRef } from 'react'
 import Nav from 'react-bootstrap/Nav';
 import module from './Navigate.module.scss'
 
+export const navRef = createRef(null)
 export const Navigate = () => {
     return (
-        <div className={module.wrapper_navigate}>
+        <div ref={navRef} className={module.wrapper_navigate}>
             <Nav
                 activeKey="/home"
                 onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
