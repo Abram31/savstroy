@@ -1,1 +1,30 @@
-.wrapper {}
+@import '../../constants/constants.scss';
+
+.wrapper {
+    background: $backgroundGold;
+}
+.container {
+    margin: 0 auto 0rem auto;
+    padding: 0 0 1rem 0;
+    max-width: $widthContainer;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    // background-image: url(../../../public/img/background_services.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.container_services {
+    margin: 0 auto;
+    max-width: $widthContainersContent;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

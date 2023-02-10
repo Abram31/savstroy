@@ -8,6 +8,8 @@ $colorTransparent: rgba(0, 0, 0, 0.5);
 $colorButton: linear-gradient(rgba(255, 220, 131, 1), rgba(251, 210, 106, 1), rgba(193, 112, 36, 1));
 $colorHover: rgba(255, 220, 131, 1);
 
+$backgroundGold: linear-gradient(rgb(255, 220, 131, 5%), rgba(232, 168, 5, 0.2));
+
 
 $fontSizeHeader: 1rem;
 $fontSizeWelcomeTitle: 37px;
@@ -28,4 +30,6 @@ $fontSizeFooterText:.6rem;
 $borderBlock: 1px solid #beb9b9;
 
 $titleMargin: 3rem auto;
+$titleMarginTopPages: 5rem auto 3rem auto;
 
+$widthContainersContent: 900px;
