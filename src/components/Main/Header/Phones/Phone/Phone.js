@@ -1,5 +1,4 @@
 import React from 'react'
-import { phonesData } from '../../../../../constants/constants'
 import module from './Phone.module.scss'
 
 

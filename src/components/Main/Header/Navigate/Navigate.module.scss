@@ -26,6 +26,7 @@
 .active {
     transform: translateX(0);
 }
+
 .navigate {
     margin: 0 auto;
     max-width: $widthContainer;
@@ -50,4 +51,8 @@
     &:hover {
         color: $colorHover
     }
+}
+
+.active {
+    color: $colorHover
 }
