@@ -4,6 +4,6 @@ import module from './Phone.module.scss'
 
 export const Phone = ({phone}) => {
   return (
-    <div className={module.phone}>{phone}</div>
+    <a className={module.phone} href={`tel:${phone}`}>{phone}</a>
   )
 }

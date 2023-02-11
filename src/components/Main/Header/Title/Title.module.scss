@@ -5,7 +5,7 @@
     gap: 1rem;
     align-items: center;
 
-    @media (max-width:$widthScreenBurger) {
+    @media (max-width:800px) {
         display: none;
     }
 }
@@ -24,6 +24,6 @@
             rgba(255, 220, 131, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1rem;
+    font-size: 1.7rem;
 
 }

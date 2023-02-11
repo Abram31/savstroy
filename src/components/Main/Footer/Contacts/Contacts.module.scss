@@ -56,14 +56,14 @@
     @media (max-width:$widthScreenBurger) {
         font-size: .7rem;
 
-        &::before {
-            content: '';
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-            width: .5rem;
-            height: .5rem;
-        }
+       &::before {
+        content: '';
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-position: center;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
     }
 }
 

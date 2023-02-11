@@ -2,9 +2,41 @@
 
 .phone {
     color: $colorHeader;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
 
-    @media (max-width: 427px) {
+    &::before {
+        content: '';
+        background-repeat: no-repeat;
+        background-image: url(../../../../../../public/svg/footerIcons/phone.svg);
+        background-size: contain;
+        background-position: center;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    @media (max-width: $widthScreenBurger) {
+        font-size: 1rem;
+
+        &::before {
+            content: '';
+            background-repeat: no-repeat;
+            background-image: url(../../../../../../public/svg/footerIcons/phone.svg);
+            background-size: contain;
+            background-position: center;
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+
+    @media (max-width: 445px) {
         font-size: 12px;
 
+    }
+
+    &:hover {
+        color: $colorHover;
     }
 }

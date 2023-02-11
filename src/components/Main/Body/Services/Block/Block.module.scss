@@ -35,14 +35,28 @@
     }
 }
 
-.button {
+// .button {
+//     padding: 1rem 1rem;
+//     background: $colorButton;
+//     border: none;
+//     max-width: 10rem;
+//     border-radius: 5px;
+
+//     @media (max-width:$widthScreenBurger) {
+//         font-size: .8rem;
+//         max-width: 7rem;
+//         padding: 0.5rem;
+
+//     }
+// }
+.link {
     padding: 1rem 1rem;
     background: $colorButton;
     border: none;
     max-width: 10rem;
+    border-radius: 5px;
     text-decoration: none;
     color: #000000;
-    border-radius: 5px;
 
     @media (max-width:$widthScreenBurger) {
         font-size: .8rem;
