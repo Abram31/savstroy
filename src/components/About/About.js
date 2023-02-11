@@ -18,10 +18,8 @@ export const About = () => {
                 <div className={module.container}>
 
                     <Title />
-                    <div className={module.container_services}>
-                        {/* {Object.entries(servicesData).map((item, index) => {
-                            return <Block key={index} text={item[1].text} title={item[1].title} id={item[0]} />
-                        })} */}
+                    <div className={module.container_about}>
+                        <Block />
                     </div>
                 </div>
             </section>

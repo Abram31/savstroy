@@ -1,4 +1,5 @@
 @import '../../../constants/constants.scss';
+
 .title {
     font-size: $fontSizeTitle;
     text-align: center;
@@ -8,6 +9,7 @@
     @media (max-width:$widthScreenBurger) {
         font-size: $fontSizeTitleBurger;
         padding: 0 1rem;
+        margin: 2rem auto 1rem auto;
     }
 }
 
