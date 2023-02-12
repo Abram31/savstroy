@@ -1,9 +1,13 @@
 .wrapper_chapter {
+    display: flex;
+    flex-direction: column;
 
 }
-.chapter_title {
 
-}
+.chapter_title {}
+
 .chapter_text {
-    
+    display: flex;
+    flex-direction: column;
+
 }
