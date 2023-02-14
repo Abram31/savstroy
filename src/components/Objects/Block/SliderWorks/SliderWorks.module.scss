@@ -1,0 +1,17 @@
+@import '../../../../constants/constants.scss';
+
+.wrapper {
+height: fit-content;
+margin: 0 0 15rem 0;
+
+}
+.container {
+    max-width: 800px;
+    // max-height: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.img {
+    max-height: 500px;
+    object-fit: contain;
+}
