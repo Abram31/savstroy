@@ -10,7 +10,7 @@ export const Contacts = () => {
       <div className={module.container}>
         <span className={module.address}>220018 РеспубликаБеларусь,<br /> г.Минск, улица Привабная 5-2H</span>
         <span className={module.mail}>savstroi@bk.ru</span>
-        {phonesData.map((phone, index) => <span key={index} className={module.phone}>{phone}</span>)}
+        {phonesData.map((phone, index) => <a key={index} className={module.phone} href={`tel:${phone}`}>{phone}</a>)}
       </div>
     </div>
   )

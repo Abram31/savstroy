@@ -43,6 +43,8 @@
     align-items: center;
     gap: .5rem;
     font-size: $fontSizeFooterText;
+    text-decoration: none;
+    color: $colorHeader;
 
     &::before {
         content: '';
@@ -56,14 +58,20 @@
     @media (max-width:$widthScreenBurger) {
         font-size: .7rem;
 
-       &::before {
-        content: '';
-        background-repeat: no-repeat;
-        // background-size: cover;
-        background-position: center;
-        width: 1.5rem;
-        height: 1.5rem;
+        &::before {
+            content: '';
+            background-repeat: no-repeat;
+            // background-size: cover;
+            background-position: center;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
+}
+
+.phone {
+    &:hover {
+        color: $colorHover;
     }
 }
 

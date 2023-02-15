@@ -32,13 +32,15 @@
     @media(max-width:$widthScreenBurger) {
         width: 100%;
         text-align: justify;
-        
+
     }
 }
+
 .name,
 .requisites_title {
     font-weight: bold;
 }
+
 .text {
     white-space: pre-wrap;
     text-align: left;
@@ -46,7 +48,7 @@
     @media(max-width:$widthScreenBurger) {
         width: 100%;
         text-align: justify;
-        ;
+
     }
 }
 

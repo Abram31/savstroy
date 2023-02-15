@@ -7,11 +7,9 @@ import { BrowserRouter, useLocation } from "react-router-dom";
 const root = createRoot(document.getElementById('root'));
 // const {}= useLocation()
 root.render(
-  // <BrowserRouter basename={process.env.PUBLIC_URL}>
-  //   <React.StrictMode>
+
   <App />
-  //   {/* </React.StrictMode>
-  // </BrowserRouter> */}
+
 );
 
 // If you want to start measuring performance in your app, pass a function
