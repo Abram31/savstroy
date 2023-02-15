@@ -21,7 +21,7 @@ import React from 'react';
 
 function App() {
   const { pathname } = window.location
-  const isAdmin = pathname === routes.admin.path
+  const isAdmin = pathname === '/admin'
 
   return (<>
     {isAdmin ?

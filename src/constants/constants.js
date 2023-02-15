@@ -1,18 +1,9 @@
-import { routes } from "../routes/routes"
+export const BASE_PATH_API = 'http://localhost:3000'
 
 export const phonesData = ['+375 (17) 317-52-75', '+375 (29) 666-16-79']
 
 export const typesWorks = ['Фассадные работы', 'Сантехнические работы', 'Кровельные работы', 'Электромонтажные работы', 'Высотные работы', 'Прочие общестроительные работы']
 
-// export const services = [
-//     { title: 'Утепление фассада', link: routes.services.path, imgPath:'warming-min.jpg'},
-//     { title: 'Внутреняя отделка ', link: routes.services.path, imgPath: 'decoration-min.png' },
-//     { title: 'Ремонт кровли жилого дома', link: routes.services.path, imgPath: 'roof-min.png' },
-//     { title: 'Строительство частных домов', link: routes.services.path, imgPath: 'building-min.png' },
-//     { title: 'Сантехнические работы', link: `${routes.services.path}`, imgPath: 'plumbing-min.png' },
-//     { title: 'Электромонтажные работы', link: routes.services.path, imgPath: 'electrician-min.png' },
-
-// ]
 
 export const careAboutData = [
     { title: 'Не поднимаем стоимость', iconPath: 'wallet.svg', text: 'Фиксируем стоимость работ в договоре'},

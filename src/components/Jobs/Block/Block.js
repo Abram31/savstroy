@@ -1,16 +1,26 @@
-import React, { Fragment } from 'react'
-import { aboutUs } from '../../../data/aboutUs'
-import { jobs } from '../../../data/jobs'
+import React, { Fragment, useEffect, useState } from 'react'
+import { BASE_PATH_API } from '../../../constants/constants'
+import { fetchRequest } from '../../../fetch/fetchRequest'
+import { routes } from '../../../routes/routes'
 import module from './Block.module.scss'
 import { Chapter } from './Chapter/Chapter'
 
 
 
 export const Block = () => {
+    const [state, setState] = useState(null)
+
+    useEffect(() => {
+        (async () => {
+            setState(await fetchRequest({ path: BASE_PATH_API + routes.jobs.path }))
+        }
+        )()
+
+    }, [])
     return (
         <div className={module.wrapper}>
             <div className={module.block_jobs}>
-                {jobs.map((data, index) => {
+                {state && state.map((data, index) => {
                     return (
                         <Fragment key={index}>
                             <h4 className={module.title}>{data.title}</h4>
@@ -18,7 +28,7 @@ export const Block = () => {
                             <Chapter title={data.requirements.name} text={data.requirements.text} />
                             <Chapter title={data.conditions.name} text={data.conditions.text} />
                             <Chapter title={data.wage.name} text={data.wage.text} />
-                            <Chapter title={data.contactPerson.name} text={data.contactPerson.phones} name={data.contactPerson.contactPerson} phones={data.contactPerson.phones}/>
+                            <Chapter title={data.contactPerson.name} text={data.contactPerson.phones} name={data.contactPerson.contactPerson} phones={data.contactPerson.phones} />
                         </Fragment>
                     )
                 })}

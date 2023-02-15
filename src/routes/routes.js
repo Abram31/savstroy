@@ -1,6 +1,6 @@
 export const basePath = '/savstroy' 
 export const routes = {
-    admin: { title: 'Администратор', path: '/admin' },
+    main: { title: 'Главная', path: '/' },
     services: { title: 'Услуги', path: '/services' },
     works: { title: 'Наши работы', path: '/works' },
     jobs: { title: 'Вакансии', path: '/jobs' },
