@@ -15,10 +15,11 @@
     @media (max-width:$widthScreenBurger) {
         display: block;
     }
-        @media (max-width: 445px) {
+
+    @media (max-width: 445px) {
         width: 2rem;
-            height: 2rem;
-        }
+        height: 2rem;
+    }
 
 }
 

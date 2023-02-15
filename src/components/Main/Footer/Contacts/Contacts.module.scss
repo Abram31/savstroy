@@ -6,9 +6,8 @@
     gap: 1rem;
     margin: .5rem 1rem .5rem 0;
     color: $colorHeader;
-    @media (max-width:$widthScreenBurger) {
-            align-self: flex-start;
-        }
+    align-self: flex-start;
+
 }
 
 .button {
@@ -29,6 +28,7 @@
 }
 
 .title {
+    font-size: $fontSizeFooterText;
     margin: 0;
 
     @media (max-width:$widthScreenBurger) {

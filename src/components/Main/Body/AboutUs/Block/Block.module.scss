@@ -1,7 +1,8 @@
 @import '../../../../../constants/constants.scss';
 
 .container {
-    max-width: 300px;
+    max-width: 280px;
+    height: fit-content;
     border-radius: 1rem;
     border: $borderBlock;
     padding: 1rem;
@@ -9,7 +10,7 @@
 
     @media (max-width: 1050px) {
         width: 200px;
-        font-size: .6rem;
+        font-size: .9rem;
         height: fit-content;
     }
 
@@ -25,6 +26,11 @@
         box-shadow: .2rem .2rem .2rem $colorHover;
 
     }
+        @media (max-width:480px) {
+            font-size: .4rem;
+        padding: .3rem;
+            // padding: .3rem;
+        }
 }
 
 .text {
@@ -34,6 +40,7 @@
     margin: 0;
     align-items: center;
     height: 100%;
+    font-weight: bold;
 
     &::before {
         content: '';

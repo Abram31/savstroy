@@ -1,12 +1,19 @@
+@import '../../../../constants/constants.scss';
+
 .wrapper_chapter {
-
-
 }
 
-.chapter_title {}
+.chapter_title {
+    font-size: $fontSizeTextBlocks;
+    margin: .3rem;
+}
 
 .chapter_text {
     display: flex;
     flex-direction: column;
+    font-size: $fontSizeTextBlocks;
+    white-space: pre-line;
+    text-align: justify;
+    text-indent: 10px;
 
 }

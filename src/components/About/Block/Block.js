@@ -11,12 +11,12 @@ export const Block = () => {
             <div className={module.head}>
                 <Logo />
                 <p className={module.head_text} >
-                    {aboutUs.head}
+                    <span className={module.name}>{aboutUs.name}</span> {`${aboutUs.head}`}
                 </p>
             </div>
             <p className={module.text}> {aboutUs.body}
             </p>
-            <p className={module.text}> {aboutUs.requisites}
+            <p className={module.text}> <span className={module.requisites_title}>{aboutUs.requisitesTitle}</span> {aboutUs.requisites}
             </p>
         </div>
     )

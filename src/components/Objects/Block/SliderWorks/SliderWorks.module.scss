@@ -1,16 +1,32 @@
 @import '../../../../constants/constants.scss';
 
 .wrapper {
-height: fit-content;
-margin: 0 0 15rem 0;
+    height: fit-content;
+    margin: 0 0 15rem 0;
 
 }
+
 .container {
     max-width: 800px;
-    // max-height: 400px;
     padding: 1rem;
     margin: 0 auto;
+    background-color: rgba(246, 247, 247, 0.74);
+    padding: 2rem;
+    box-shadow: $boxShadow;
+
 }
+
+.title {
+    font-size: $fontSizeTitleBlocks;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text {
+    font-size: $fontSizeTextBlocks;
+    font-weight: 500;
+}
+
 .img {
     max-height: 500px;
     object-fit: contain;

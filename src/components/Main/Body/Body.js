@@ -15,9 +15,9 @@ export const Body = () => {
             <Welcome />
             <Services />
             <CareAboutClient />
+            <AmountObjectsOld />
             <CarouselBlock />
             <AboutUs />
-            <AmountObjectsOld />
             <OurCustomers />
         </main>
     )

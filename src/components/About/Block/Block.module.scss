@@ -6,6 +6,7 @@
     gap: 1rem;
     background-color: rgba(246, 247, 247, 0.74);
     padding: 2rem;
+    box-shadow: $boxShadow;
 
 
 }
@@ -31,10 +32,13 @@
     @media(max-width:$widthScreenBurger) {
         width: 100%;
         text-align: justify;
-        ;
+        
     }
 }
-
+.name,
+.requisites_title {
+    font-weight: bold;
+}
 .text {
     white-space: pre-wrap;
     text-align: left;

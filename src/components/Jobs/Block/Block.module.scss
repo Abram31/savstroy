@@ -4,9 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: rgba(246, 247, 247, 0.74);
-    padding: 2rem;
-
+    box-shadow: $boxShadow;
 
 }
 
@@ -34,7 +32,14 @@
         ;
     }
 }
-
+.block_jobs {
+    background-color: rgba(246, 247, 247, 0.74);
+    padding: 2rem;
+}
+.title {
+    font-size: $fontSizeTitleBlocks;
+    margin: .6rem 0;
+}
 .text {
     white-space: pre-wrap;
     text-align: left;
