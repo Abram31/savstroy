@@ -5,13 +5,13 @@
     gap: 2rem;
     width: 25rem;
     border: 1px solid #beb9b9;
-    padding: 1.5rem;
+    padding: .5rem;
     border-radius: 1rem;
 
     @media (max-width:$widthScreenBurger) {
-        width: 10rem;
+        max-width: 20rem;
         font-size: .6rem;
-        padding: 0.4rem;
+        padding: 0.2rem;
         gap: 1rem;
     }
 }
