@@ -1,10 +1,15 @@
 @import '../../../../constants/constants.scss';
+
 .wrapper {
     height: 140px;
     background-color: #000000;
     display: flex;
     justify-content: center;
     margin: 1rem 0;
+
+    @media (max-width:$widthScreenBurger) {
+        height: 100px;
+    }
 }
 
 .blocks {
