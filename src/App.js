@@ -31,7 +31,9 @@ function App() {
         </React.StrictMode>
       </BrowserRouter>
       :
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter 
+      // basename={process.env.PUBLIC_URL}
+      >
         <React.StrictMode>
           <Routes>
             <Route path="/" element={<Main />} />
