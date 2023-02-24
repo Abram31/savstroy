@@ -25,11 +25,13 @@ function App() {
 
   return (<>
     {isAdmin ?
-      <BrowserRouter>
-        <React.StrictMode>
+      // <BrowserRouter
+      // basename={process.env.PUBLIC_URL}
+      // >
+        // <React.StrictMode>
           <AdminComp />
-        </React.StrictMode>
-      </BrowserRouter>
+        // </React.StrictMode>
+      /* </BrowserRouter> */
       :
       <BrowserRouter 
       // basename={process.env.PUBLIC_URL}

@@ -1,4 +1,4 @@
-export const BASE_PATH_API = 'http://localhost:3000'
+export const BASE_PATH_API = 'http://localhost:5000'
 
 export const phonesData = ['+375 (17) 317-52-75', '+375 (29) 666-16-79']
 
