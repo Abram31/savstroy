@@ -9,7 +9,7 @@ export const WelcomeText = () => {
     useEffect(()=>{
         setTimeout(()=>{
             container.current.classList.add(module.container_load)
-        }, 500)
+        }, 100)
         console.log('useEffect');
     },[])
     return (

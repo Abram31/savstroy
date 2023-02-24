@@ -11,7 +11,7 @@
     @media (max-width:$widthScreenBurger) {
         gap: .5rem;
     }
-    
+
 }
 
 .title {
@@ -25,6 +25,13 @@
     width: 500px;
     height: 450px;
     object-fit: cover;
+    border:
+        20px solid transparent;
+    border-image:
+        linear-gradient(orange,
+            rgb(245, 244, 164),
+            rgb(212, 181, 58),
+            rgb(227, 196, 73)) 1;
 
     @media (max-width: 1050px) {
         max-width: 300px;
@@ -41,6 +48,19 @@
         height: 300px;
         width: 35%;
         min-width: 230px;
+    }
+
+    @media (max-width:450px) {
+        height: 230px;
+        width: 35%;
+        min-width: 170px;
+        border:
+            10px solid transparent;
+        border-image:
+            linear-gradient(orange,
+                rgb(245, 244, 164),
+                rgb(212, 181, 58),
+                rgb(227, 196, 73)) 1;
     }
 }
 

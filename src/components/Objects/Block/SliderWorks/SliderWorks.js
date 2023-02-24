@@ -14,7 +14,7 @@ export const SliderWorks = ({title,text}) => {
             <Carousel dynamicHeight={true} infiniteLoop={true}>
             {Array(5).fill(1).map((data,index)=> {
                 return (
-                    <div>
+                    <div key={index}>
                         {/* <p className={module.description}>{title}</p> */}
                         <img className={module.img} src={`${process.env.PUBLIC_URL}/img/objects/Melega_4/${index+1}.jpg`} />
                     </div>

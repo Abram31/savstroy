@@ -14,7 +14,7 @@ export function CarouselBlock() {
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
-    const data = Array(10).fill(1).map((data, index) => {
+    const data = Array(12).fill(1).map((data, index) => {
         return {
             image: `${process.env.PUBLIC_URL}/img/objects/Melega_4/${index + 1}.jpg`,
             caption: ""
