@@ -8,7 +8,7 @@ import { TypesWorks } from './TypesWorks/TypesWorks'
 
 export const Footer = () => {
   return (
-    <header className={module.footer}>
+    <footer className={module.footer}>
       <div className={module.container_footer}>
         <Logo />
         <TypesWorks />
@@ -16,6 +16,6 @@ export const Footer = () => {
 
 
       </div>
-    </header>
+    </footer>
   )
 }
