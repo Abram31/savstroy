@@ -9,8 +9,8 @@ import { Carousel } from 'react-responsive-carousel';
 export const SliderWorks = ({title,text}) => {
     return (  
     <div className={module.container}>
-            <h5 className={module.title}>{title}</h5>
-            <p className={module.text}>{text}</p>
+            {/* <h5 className={module.title}>{title}</h5>
+            <p className={module.text}>{text}</p> */}
             <Carousel dynamicHeight={true} infiniteLoop={true}>
             {Array(5).fill(1).map((data,index)=> {
                 return (

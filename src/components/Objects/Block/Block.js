@@ -21,15 +21,7 @@ export const Block = ({ title, text, id }) => {
 
     return (
         <div className={module.wrapper}>
-            <h5 className={module.title} id={id}>{title}</h5>
-            <p className={module.text} >
-                {text}
-            </p>
-            {/* {Array(2).fill(1).map((item, index) => { */}
-                {/* return  */}
             <SliderWorks title={'Капитальный ремонт жилого дома №2 по ул.Ленина в г.Минске'} text={'Выполнялись общестроительные, сантехнические электромонтажные работы '}/>
-
-{/* })} */}
         </div>
     )
 }
