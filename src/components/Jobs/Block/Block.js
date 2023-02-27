@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react'
-import { BASE_PATH_API } from '../../../constants/constants'
+import { BASE_PATH_API, BASE_PATH_API_SERVER } from '../../../constants/constants'
 import { fetchRequest } from '../../../fetch/fetchRequest'
 import { routes } from '../../../routes/routes'
 import module from './Block.module.scss'
@@ -12,7 +12,7 @@ export const Block = () => {
 
     useEffect(() => {
         (async () => {
-            setState(await fetchRequest({ path: BASE_PATH_API + routes.jobs.path }))
+            setState(await fetchRequest({ path: BASE_PATH_API_SERVER + '/jobs' }))
         }
         )()
 

@@ -18,7 +18,7 @@ export const Services = () => {
         if (checkElement) {
             const block = document.getElementById(id);
             if (block) {
-                block.scrollIntoView({ behavior: "smooth" });
+                    block.scrollIntoView({ behavior: "smooth" });
             }
         }
     }, [hash])

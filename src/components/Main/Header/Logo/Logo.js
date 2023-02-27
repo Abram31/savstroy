@@ -6,7 +6,7 @@ import module from './Logo.module.scss'
 export const Logo = () => {
   return (
     <div className={module.wrapper}>
-      <Link href={basePath} className={module.logo}>
+      <Link to={basePath} className={module.logo}>
         <img className={module.img} src={`${process.env.PUBLIC_URL}/img/SAV_logo.png`} alt=''></img>
       </Link>
     </div>

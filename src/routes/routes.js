@@ -1,4 +1,4 @@
-export const basePath = '/savstroy' 
+export const basePath = '/' 
 export const routes = {
     main: { title: 'Главная', path: '/' },
     services: { title: 'Услуги', path: '/services' },

@@ -10,7 +10,9 @@ import { BASE_PATH_API } from '../../constants/constants';
 
 export const AdminComp = () => {
   return (
-    <Admin dataProvider={restProvider(BASE_PATH_API)} authProvider={authProvider}>
+    <Admin dataProvider={restProvider(BASE_PATH_API + '/admin')}
+      authProvider={authProvider}
+    >
       <Resource name='jobs' list={JobList}
         create={JobCreate} edit={JobEdite}
       />

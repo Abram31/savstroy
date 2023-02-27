@@ -16,7 +16,7 @@ export const Jobs = () => {
                 <div className={module.container}>
                     <Title />
                     <div className={module.container_jobs}>
-                        {/* <Block /> */}
+                        <Block />
                     </div>
                 </div>
             </section>
