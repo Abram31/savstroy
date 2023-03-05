@@ -27,7 +27,8 @@ function App() {
   return (<>
     {isAdmin ?
       <BrowserRouter
-        basename={process.env.PUBLIC_URL}
+        basename={process.env.PUBLIC_URL} 
+
       >
         <React.StrictMode>
           <AdminComp />
