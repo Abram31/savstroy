@@ -22,24 +22,26 @@ import React from 'react';
 function App() {
   const { pathname } = window.location
   const isAdmin = pathname === '/admin'
+  console.log(process.env.PUBLIC_URL);
 
   return (<>
     {isAdmin ?
-      // <BrowserRouter
-      // basename={process.env.PUBLIC_URL}
-      // >
-        // <React.StrictMode>
+      <BrowserRouter
+        basename={process.env.PUBLIC_URL}
+      >
+        <React.StrictMode>
           <AdminComp />
-        // </React.StrictMode>
-      /* </BrowserRouter> */
+        </React.StrictMode>
+      </BrowserRouter>
       :
-      <BrowserRouter 
-      // basename={process.env.PUBLIC_URL}
+      <BrowserRouter
+        basename={process.env.PUBLIC_URL}
       >
         <React.StrictMode>
           <Routes>
             <Route path="/" element={<Main />} />
-            {/* <Route path='/admin/*' element={<AdminComp />} /> */}
+            {/* <Route path='/admin' element={<AdminComp />} /> */}
+
             <Route path={routes.services.path} element={<Services />} />
             <Route path={routes.works.path} element={<Objects />} />
             <Route path={routes.jobs.path} element={<Jobs />} />

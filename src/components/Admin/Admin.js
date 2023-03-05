@@ -5,13 +5,13 @@ import { JobList } from './JobList';
 import { JobCreate } from './JobCreate';
 import { JobEdite } from './JobEdite';
 import { authProvider } from './authProvider';
-import { BASE_PATH_API } from '../../constants/constants';
+import { BASE_PATH_API, BASE_PATH_API_SERVER } from '../../constants/constants';
 
 
 export const AdminComp = () => {
   return (
-    <Admin dataProvider={restProvider(BASE_PATH_API + '/admin')}
-      authProvider={authProvider}
+    <Admin authProvider={authProvider} dataProvider={restProvider(BASE_PATH_API_SERVER + '/data')}
+      
     >
       <Resource name='jobs' list={JobList}
         create={JobCreate} edit={JobEdite}

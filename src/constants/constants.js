@@ -1,4 +1,6 @@
-export const BASE_PATH_API = 'http://localhost:3000'
+export const BASE_PATH_API = 'http://localhost:5000'
+// export const BASE_PATH_API = 'http://localhost:3000'
+
 export const BASE_PATH_API_SERVER = 'http://localhost:5000'
 
 
