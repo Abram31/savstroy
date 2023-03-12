@@ -6,6 +6,7 @@ import { navRef } from '../Navigate/Navigate'
 
 export const BurgerIcon = () => {
     const burger = useRef()
+    // eslint-disable-next-line no-unused-vars
     let activeStyle;
     const handleClick = (e) => {
         if (burger.current.classList.contains(module.active)) {

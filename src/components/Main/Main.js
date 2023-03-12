@@ -6,10 +6,10 @@ import module from './Main.module.scss'
 
 export const Main = () => {
   return (
-  <main className={module.main}>
-    <Header />
-    <Body />
-    <Footer />
-  </main>
+    <main className={module.main}>
+      <Header />
+      <Body />
+      <Footer />
+    </main>
   )
 }

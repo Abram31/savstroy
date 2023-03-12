@@ -1,27 +1,32 @@
 import React, { Fragment, useEffect, useState } from 'react'
-import { BASE_PATH_API, BASE_PATH_API_SERVER } from '../../../constants/constants'
+import { BASE_PATH_API_SERVER } from '../../../constants/constants'
 import { fetchRequest } from '../../../fetch/fetchRequest'
-import { routes } from '../../../routes/routes'
 import module from './Block.module.scss'
 import { Chapter } from './Chapter/Chapter'
-
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 
 export const Block = () => {
     const [state, setState] = useState(null)
+    const [loader, setLoader] = useState(true)
 
     useEffect(() => {
         (async () => {
-            setState(await fetchRequest({ path: BASE_PATH_API_SERVER + '/jobs' }))
+            const res = await fetchRequest({ path: BASE_PATH_API_SERVER}) 
+            setState(res)
+            setLoader(false)
         }
         )()
 
     }, [])
     return (
         <Fragment>
+            {loader && <div className={module.preloader}>
+                <CircularProgress color='black' />
+            </div>}
             {state && state.map((data, index) => {
                 return (
-                    <div className={module.wrapper}>
+                    <div className={module.wrapper} key={index}>
 
                         <div className={module.block_jobs}>
                             <h4 className={module.title}>{data.title}</h4>

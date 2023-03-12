@@ -1,18 +1,11 @@
-import Carousel from 'react-bootstrap/Carousel';
-import React, { useState } from 'react'
+import React from 'react'
 import module from './OurCustomers.module.scss'
 import { Title } from './Title/Title';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import InfiniteCarousel from 'react-leaf-carousel';
 import { ourCustomers } from '../../../../constants/constants';
 
 
 export const OurCustomers = () => {
-    // const [index, setIndex] = useState(0);
-
-    // const handleSelect = (selectedIndex, e) => {
-    //     setIndex(selectedIndex);
-    // };
     return (
         <section className={module.wrapper}>
             <Title />

@@ -1,7 +1,9 @@
 export const BASE_PATH_API = 'http://localhost:5000'
 // export const BASE_PATH_API = 'http://localhost:3000'
 
-export const BASE_PATH_API_SERVER = 'http://localhost:5000'
+// export const BASE_PATH_API_SERVER = 'http://localhost:5000/jobs'
+export const BASE_PATH_API_SERVER = 'http://server.savstroi.vh87.hosterby.com//jobs'
+
 
 
 export const phonesData = ['+375 (17) 317-52-75', '+375 (29) 666-16-79']

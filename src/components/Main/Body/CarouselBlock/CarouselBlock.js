@@ -1,26 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Carousel } from 'react-carousel-minimal';
-// import module from './CarouselBlock.module.scss'
-// import Carousel from 'react-bootstrap/Carousel';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { Title } from './Title/Title';
-// import './Carousel.scss'
 
 
 
 export function CarouselBlock() {
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
     const data = Array(12).fill(1).map((data, index) => {
         return {
             image: `${process.env.PUBLIC_URL}/img/objects/Melega_4/${index + 1}.jpg`,
             caption: ""
         }
     })
-    
+
     const captionStyle = {
         fontSize: '2em',
         fontWeight: 'bold',
@@ -57,28 +47,5 @@ export function CarouselBlock() {
                 margin: "40px auto",
             }}
         />
-        // <section className={module.wrapper}>
-        //     <div className={module.container}>
-        //         <Title />
-        //         <Carousel activeIndex={index} onSelect={handleSelect} interval={100000}>
-        //             {Array(10).fill(1).map((data, index) => {
-        //                 return (
-        //                     <Carousel.Item key={index + data}>
-        //                         <img
-        //                             className={`d-block ${module.img}`}
-        //                             src={`${process.env.PUBLIC_URL}/img/objects/Melega_4/${index + 1}.jpg`}
-        //                             alt="First slide"
-        //                         />
-        //                         {/* <Carousel.Caption>
-        //                         <h3>First slide label</h3>
-        //                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        //                     </Carousel.Caption> */}
-        //                     </Carousel.Item>
-        //                 )
-        //             })}
-
-        //         </Carousel >
-        //     </div>
-        // </section>
     );
 }
