@@ -2,13 +2,13 @@ import React from 'react';
 import './index.scss';
 import App from './App';
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, useLocation } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = createRoot(document.getElementById('root'));
-// const {}= useLocation()
 root.render(
-
-  <App />
+    <React.StrictMode>
+        <App />
+    </React.StrictMode >
 
 );
 

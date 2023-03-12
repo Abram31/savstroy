@@ -17,7 +17,6 @@ function App() {
       <BrowserRouter
         basename={process.env.PUBLIC_URL}
       >
-        <React.StrictMode>
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path={routes.services.path} element={<Services />} />
@@ -25,7 +24,6 @@ function App() {
             <Route path={routes.jobs.path} element={<Jobs />} />
             <Route path={routes.about.path} element={<About />} />
           </Routes>
-        </React.StrictMode>
       </BrowserRouter>
   </>
   )
